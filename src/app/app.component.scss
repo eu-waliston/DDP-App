@@ -1,0 +1,44 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.navbar-brand {
+    font-weight: bold;
+}
+#outroLado {
+  position: relative;
+  left: 1200px;
+  overflow: hidden;
+  overflow-x: hidden;
+  // overflow-y: hidden;
+}
+@media (max-width: 1200px) {
+  #outroLado {
+    position: relative;
+    left: 1200px;
+    overflow: hidden;
+    overflow-x: hidden;
+    // overflow-y: hidden;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  #outroLado {
+    left: 550px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+  }
+
+}
+
+@media (max-width: 650px) {
+  #logo {
+    background: none;
+  }
+  * {
+    overflow-x: hidden;
+    // overflow-y: hidden;
+
+  }
+
+}
